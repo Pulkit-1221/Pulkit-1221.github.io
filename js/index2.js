@@ -15,6 +15,8 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
+
+
 window.addEventListener('scroll',()=>{
   let content = document.querySelector('.intro-row');
   let contentPosition=content.getBoundingClientRect().top;
@@ -38,7 +40,7 @@ window.addEventListener('scroll',()=>{
     content.classList.add('active');
   }
 })
- 
+
 
 // $(document).ready(function(){
 //   console.log("Hello");
@@ -77,6 +79,6 @@ window.addEventListener('scroll',()=>{
   let contentPosition=content.getBoundingClientRect().top;
   let screenPosition=window.innerHeight;
   if(contentPosition<screenPosition){
-    content.classList.add('slideup'); 
+    content.classList.add('slideup');
   }
 })
