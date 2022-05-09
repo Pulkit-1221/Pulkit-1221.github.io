@@ -23,7 +23,7 @@ body{
     justify-content: space-between;
     opacity: 0;
     transform: scale(0.1);
-    transition: all 1s ease-in-out;       
+    transition: all 1s ease-in-out;
 }
 
 .active{
@@ -37,7 +37,7 @@ body{
     margin-right: 50px;
     font-size: 20px;
     flex-basis: 40%;
-    
+
 }
 .coffee{
     height: 200px;
@@ -47,7 +47,7 @@ body{
 }
 
 .about-me{
-    
+
     margin-left: 200px;
       padding-top: 20px;
     text-align: center;
@@ -68,7 +68,7 @@ body{
 
 .skills-column{
     flex:50%;
-    
+
 }
 
 .skills-img{
@@ -113,11 +113,11 @@ body{
 
 .column-devTools-row{
     display: flex;
-    
+
 }
 /* .column-lang-row{
     display: flex;
-    
+
 } */
 
 .row-devTools{
@@ -128,7 +128,7 @@ body{
     justify-content: space-between;
     opacity: 0;
     transform: scale(0.1);
-    transition: all 1s ease-in-out; 
+    transition: all 1s ease-in-out;
 }
 
 .devTools-content{
@@ -199,7 +199,7 @@ body{
     left: 40px;
 }
 .column-devTools{
-    
+
 }
 
 .row-lang{
@@ -210,7 +210,7 @@ body{
     justify-content: space-between;
     opacity: 0;
     transform: scale(0.1);
-    transition: all 1s ease-in-out; 
+    transition: all 1s ease-in-out;
 }
 
 /* .column-lang{
@@ -223,23 +223,23 @@ body{
 }
 .main{
     background-color: black;
-    padding: 100px 0px 0px 50px;
+    padding: 10px 0px 0px 10px;
     font-family: 'Montsterrat', sans-serif;
-    /* height: 100%;
+    height: 100%;
     width: 100%;
- */ 
-    
+
+
 }
 
 .profile-pic{
 	animation: transitionIn 2.2s;
-    width: 450px;
+    width: 550px;
     margin-left: 100px;
 }
 .me{
     margin-left: 100px;
-    font-size: 75px;
-    
+    font-size: 78px;
+
 }
 
 
@@ -266,7 +266,7 @@ body{
     /* padding: 0px 0px 10px 0px ; */
     margin: 0 0 10px 50px;
     color: red;
-    
+
 }
 
 
@@ -294,6 +294,7 @@ body{
     padding: 0px 0px 10px 0px ;
     color: white;
     margin: 0 0 10px 50px;
+    font-size: 120px;
 }
 
 
@@ -309,17 +310,17 @@ body{
 }
 @-webkit-keyframes animate {
 	0% {opacity: 0;-webkit-transform: translateY(100%);}
-	100% {opacity: 1;-webkit-transform: translateY(0%);}	
+	100% {opacity: 1;-webkit-transform: translateY(0%);}
 }
 @keyframes animate {
 	0% {opacity: 0;transform: translateY(30vh);} /* WORK ON THISSS! */
 	0% {transform: translateY(100%);}
-	100% {opacity: 1;transform: translateY(0%);}	
+	100% {opacity: 1;transform: translateY(0%);}
 }
 
 
 /* .intro{
-  
+
 
 } */
 
@@ -410,8 +411,8 @@ body{
 .all-icons{
     color: #DDDDDD;
     display: inline;
-    font-size: 50px; 
-    padding: 50px; 
+    font-size: 50px;
+    padding: 50px;
     transition: font-size .5s;
     /* opacity: 0;
     transform: scale(0.1); */
@@ -431,4 +432,3 @@ body{
     font-size: 70px;
     color: red;
 }
-
